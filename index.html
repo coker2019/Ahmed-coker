@@ -13,10 +13,17 @@
       This is a survey form page, for microverse
     </p>
     <form id="survey-form">
-      <input id="name" type="text" />
-      <input id="email" type="email" />
-      <input id="number" type="number" min="1" max="50" />
+      <label id="name-label" for="">NAME</label>
+      <input id="name" type="text" required placeholder="enter name"><br>
+      <label id="email-label" for="">EMAIL</label>
+      <input id="email" type="email" required placeholder="enter email"><br>
+      <label id="number-label" for="">NUMBER</label>
+      <input id='number' type="number" min="1" max="50" placeholder="enter number 1-50"><br>
     </form>
+    <select name="" id="dropdown">
+      <option value="1"> male  
+        <option value="2"> female     
+    </select><br>
 
     <script src="js/index.js"></script>
   </body>
