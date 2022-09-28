@@ -9,21 +9,44 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <h1 id="title">Ahmed survey</h1>
-    <p id="this a test of microverse">
-      This is a survey form page, for microverse
+    <p id="description">
+      This is a survey form page, for microverse, this was a very great
+      collaboration project with maurice. Lorem Ipsum is simply dummy text of
+      the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a
+      galley of type and scrambled it to make a type specimen book. It has
+      survived not only five centuries, but also the leap into electronic
+      typesetting, remaining essentially unchanged. It was popularised in the
+      1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+      and more recently with desktop publishing software like Aldus PageMaker
+      including versions of Lorem Ipsum.
     </p>
     <form id="survey-form">
       <label id="name-label" for="">NAME</label>
-      <input id="name" type="text" required placeholder="enter name"><br>
+      <input id="name" type="text" required placeholder="enter name" /><br />
       <label id="email-label" for="">EMAIL</label>
-      <input id="email" type="email" required placeholder="enter email"><br>
+      <input id="email" type="email" required placeholder="enter email" /><br />
       <label id="number-label" for="">NUMBER</label>
-      <input id='number' type="number" min="1" max="50" placeholder="enter number 1-50"><br>
+      <input
+        id="number"
+        type="number"
+        min="1"
+        max="50"
+        placeholder="enter number 1-50"
+      /><br />
+      <select name="" id="dropdown">
+        <option value="1">male</option>
+        <option value="2">female</option></select
+      ><br />
+      <input type="radio" name="radio-btn" value="male" />
+      <input type="radio" name="radio-btn" value="female" /><br />
+      <input type="checkbox" name="checkbox" id="" value="1" />
+      <input type="checkbox" name="checkbox" id="" value="2" /><br />
+      <textarea name="comments" id="" cols="30" rows="10">
+any additional comments?</textarea
+      ><br />
+      <button id="submit" type="submit" texta>click to submit</button>
     </form>
-    <select name="" id="dropdown">
-      <option value="1"> male  
-        <option value="2"> female     
-    </select><br>
 
     <script src="js/index.js"></script>
   </body>
