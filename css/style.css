@@ -1,5 +1,5 @@
 body{
-    color:rgb(46, 46, 141);
+    color:rgb(54, 54, 162);
     text-align: center;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
@@ -10,10 +10,10 @@ body{
 h1{
     font-size:xx-large;
     font: xx-large bolder;
-    color:blue ;
+    color:red ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight:bolder;
-    text-decoration:aqua;
+    text-decoration:rgb(13, 80, 80);
 }
 input{
     margin: 15px;
@@ -22,7 +22,4 @@ form{
     margin:10px auto auto 580px;
 
     text-align: left;
-}
-#survey-form{
-    
 }
